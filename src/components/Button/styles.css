@@ -1,0 +1,29 @@
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    line-height: 0;
+    cursor: pointer;
+
+    transition: .4s;
+}
+
+button svg {
+    opacity: 1;
+    height: auto;
+}
+
+.plus, .minus {
+    width: 30px;
+    height: 30px;
+    background: #2F3676;
+    font-size: 30px;
+}
+
+button:hover {
+    filter: brightness(80%);
+}
+

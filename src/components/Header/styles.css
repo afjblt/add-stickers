@@ -1,0 +1,26 @@
+.headerBox {
+    height: 6rem;
+    background: #2E3575;
+    padding: 1rem;
+    border-radius: 8px 8px 50% 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    margin: 0;
+    max-width: 50%;
+    color: #f2f2f2;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: -1.5rem;
+}
+
+span {
+    font-weight: 600;
+}
+
+svg {
+    font-size: 100px;
+    opacity: .6;
+}

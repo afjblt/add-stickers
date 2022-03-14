@@ -1,0 +1,54 @@
+.formContent {
+    padding: 1.8rem;
+}
+
+.formContent label {
+    font-weight: bold;
+}
+
+.checkboxes {
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+.formContent .checkbox {
+    display: flex;
+    align-items: center;
+    margin-top: .4rem;
+
+}
+
+.formContent .checkbox label {
+    font-weight: normal;
+    margin-top: -.1rem;
+}
+
+.amountEach {
+    display: flex;
+    gap: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.amountEach input {
+    border-radius: 5px;
+    border: 1px solid #A2A8C1;
+    background: #DDE3E9;
+    width: 4rem;
+    outline: none;
+}
+
+#obs {
+    display: block;
+    width: 100%;
+    margin-top: .8rem;
+    border: 1px solid #A2A8C1;
+    background: #DDE3E9;
+    border-radius: 5px;
+    resize: none;
+    outline: none;
+}
+
+#obs::placeholder {
+    padding: .5rem;
+}
