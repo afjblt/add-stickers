@@ -1,7 +1,7 @@
 html {
   height: 100vh;
   background: rgb(34,193,195);
-  background: linear-gradient(175deg, #8A2BE2 0%, rgba(138,43,226,1) 100%) no-repeat;
+  background: linear-gradient(175deg, #8A2BE2 0%, rgba(138,43,226,1) 75%);
 }
 
 body {
