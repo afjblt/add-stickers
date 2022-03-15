@@ -57,7 +57,7 @@ function Form() {
             </div>
             
             <label htmlFor="obs">Observações:</label>
-            <textarea name="obs" id="obs" cols="30" rows="7" placeholder='Alguma dúvida? Recado?'></textarea>
+            <textarea name="obs" id="obs" cols="30" rows="8" placeholder='Alguma dúvida? Recado?'></textarea>
             
         </form>
      );

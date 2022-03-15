@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer';
 import Form from './components/Form';
 import Header from './components/Header';
 
@@ -8,6 +9,7 @@ function App() {
       <div className='box'>
         <Header />
         <Form />
+        <Footer />
       </div>
      
     </div>

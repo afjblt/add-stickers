@@ -1,0 +1,12 @@
+footer {
+    position: absolute;
+    background: #DDE3E9;
+    padding: 1.5rem;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    justify-content: flex-end;
+   
+}
