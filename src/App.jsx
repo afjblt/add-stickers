@@ -1,8 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
-import Footer from './components/Footer';
-import Form from './components/Form';
-import Header from './components/Header';
+import CheckoutStickers from "./components/pages/CheckoutStickers";
 import FormStickers from "./components/pages/FormStickers";
 
 function App() {
@@ -12,6 +10,7 @@ function App() {
         <div className='box'>
           <Routes>
             <Route exact path='/' element={<FormStickers />}></Route>
+            <Route exact path='/checkout' element={<CheckoutStickers />}></Route>
           </Routes>
         </div>
       </div>

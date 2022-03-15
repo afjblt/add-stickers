@@ -5,9 +5,9 @@ import Header from "../Header";
 function FormStickers() {
     return ( 
         <>
-            <Header />
+            <Header text="Formulário"/>
             <Form />
-            <Footer />
+            <Footer to='/checkout' text='ENVIAR'/>
         </>
      );
 }

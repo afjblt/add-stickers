@@ -21,10 +21,6 @@ function Form() {
 
     function handleChangeAmount(e) {
         setAmount(Number(e.target.value))
-        if (amount === 'NaN') {
-            // alert('Este campo só aceita números')
-            setAmount(0)
-        }
     }
 
     console.log(amount);
@@ -52,7 +48,7 @@ function Form() {
 
             <div className="amountEach">
                 <Button onClick={handleButtonMinus} classButton='minus'><AiOutlineMinus /></Button>
-                <input type="text" onChange={handleChangeAmount} value={amount}/>
+                <input type="number" onChange={handleChangeAmount} value={amount}/>
                 <Button onClick={handleButtonPlus} classButton='plus'><BsPlusLg /></Button>
             </div>
             

@@ -33,3 +33,8 @@ button:hover {
     font-weight: bold;
 }
 
+.submit a {
+    color: white;
+    text-decoration: none;
+}
+
