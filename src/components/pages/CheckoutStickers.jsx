@@ -1,4 +1,3 @@
-import Footer from "../Footer";
 import Header from "../Header";
 import Steps from "../Steps";
 
@@ -7,7 +6,6 @@ function CheckoutStickers() {
         <>
             <Header text='Checkout'/>
             <Steps />
-            <Footer to='/' text='CONCLUIR'/>
         </>
      );
 }

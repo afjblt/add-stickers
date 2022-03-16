@@ -1,0 +1,8 @@
+.paymentConclued {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+}

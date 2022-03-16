@@ -22,9 +22,7 @@ function Form() {
     function handleChangeAmount(e) {
         setAmount(Number(e.target.value))
     }
-
-    console.log(amount);
-
+    
     return ( 
         <form action="/" className='formContent'>
             <label>Quais adesivos:</label>

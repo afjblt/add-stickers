@@ -1,18 +1,44 @@
 footer {
     position: absolute;
     background: #DDE3E9;
-    padding: 1.5rem;
+    height: 80px;
     bottom: 0;
     right: 0;
     left: 0;
     border-radius: 0 0 8px 8px;
     display: flex;
+    align-items: center;
     justify-content: flex-end;
    
 }
 
+.submit {
+    width: auto;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 25px;
+    height: 33px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    background: #2F3676;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s;
+    margin-right: 1.5rem;
+}
+
+.submit:hover {
+    filter: brightness(80%);
+}
+
+a.submit.disable {
+    display: none;
+}
+
 @media (max-height: 630px) {
     footer {
-        padding: .8rem;
+        height: 50px;
     }
 }

@@ -27,14 +27,5 @@ button:hover {
     filter: brightness(80%);
 }
 
-.submit {
-    width: 100px;
-    height: 35px;
-    font-weight: bold;
-}
 
-.submit a {
-    color: white;
-    text-decoration: none;
-}
 
